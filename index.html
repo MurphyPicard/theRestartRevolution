@@ -1,25 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html ng-app='mainApp'>
   <head>
     <meta charset="utf-8">
     <title>tRR</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
     <script src="app.js" charset="utf-8"></script>
   </head>
-  <body>
+  <body ng-controller='mainCTRL'>
 
     <header>
-      <h1 class="headerClass">Ara's new app</h1>
+      <h1 class="headerClass">Ara's new app, soon to be a nonprofit.</h1>
     </header>
     <br>
 
     <section>
-      this is a small section of a
+      {{greeting}}, this is 5 + 6... {{5+6}}
     </section>
     <br>
+    <div class="">
+
+    </div>
 
     <footer>
-      Made with AngularJS and love.
+      Made by {{info.name[0]}} with {{info.framework[0]}} and {{info.emotion[0]}}.
     </footer>
 
   </body>
