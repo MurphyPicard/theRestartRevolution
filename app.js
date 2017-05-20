@@ -5,7 +5,7 @@ angular
   .controller("mainCTRL", mainCTRL);
 
 function mainCTRL ($scope){
-  $scope.greeting = "hello";
+  $scope.greeting = ['hi', 'hello', 'how are u'];
 
   $scope.info = {
     name: ["Ara", 'bob'],

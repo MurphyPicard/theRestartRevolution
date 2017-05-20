@@ -2,9 +2,40 @@
   color: red;
   font-size: 54px;
 }
+table{
+  width: 99%;
+}
+tr{
+  width: 99%;
+}
+.td1{
+  width: 25%;
+}
 .angularTestDiv{
   border: 2px black solid;
   background-color: powderblue;
-  width: 40%;
-  height: 150px;
+  width: 90%;
+  height: 140px;
+  padding: 10px;
+  margin: 10px;
+}
+.td2{
+  width: 25%;
+}
+.angularTestDiv2{
+  border: 5px black dashed;
+  background-color: lightgrey;
+  width: 90%;
+  height: 140px;
+  padding: 10px;
+  margin: 10px;
+}
+.td3{
+  width: 25%;
+  border: 5px black dashed;
+  background-color: lightgrey;
+  width: 90%;
+  height: 140px;
+  padding: 10px;
+  margin: 10px;
 }
