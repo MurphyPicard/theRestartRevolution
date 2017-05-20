@@ -39,3 +39,8 @@ tr{
   padding: 10px;
   margin: 10px;
 }
+.answerDiv{
+  background-color: turquoise;
+  height: 40px;
+  width: 100px;
+}
