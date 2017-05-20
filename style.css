@@ -1,3 +1,10 @@
 .headerClass {
   color: red;
+  font-size: 54px;
+}
+.angularTestDiv{
+  border: 2px black solid;
+  background-color: powderblue;
+  width: 40%;
+  height: 150px;
 }
