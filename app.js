@@ -8,7 +8,7 @@ function mainCTRL ($scope){
   $scope.greeting = ['hi', 'hello', 'how are u'];
 
   $scope.info = {
-    name: ["Ara", 'bob'],
+    names: ["Ara", 'Bob', 'Carl', 'Dexter'],
     framework: ['AngularJS', 'React'],
     emotion: ['Love']
   };

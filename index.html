@@ -62,11 +62,7 @@
 
           <td class="td2">
             <div class="angularTestDiv2">
-              Angular test area 2<br><br><br>
-
-              {{greeting}} <br>
-
-              5 + 6 = {{5+6}}
+              <p ng-repeat="name in info.names">{{name}}</p>
             </div>
           </td>
           <td class="td3">
@@ -92,7 +88,7 @@
     </section><br>
 
     <footer>
-      Made by {{info.name[0]}} with {{info.framework[0]}} and {{info.emotion[0]}}.
+      Made by {{info.names[0]}} with {{info.framework[0]}} and {{info.emotion[0]}}.
     </footer>
 
   </body>
