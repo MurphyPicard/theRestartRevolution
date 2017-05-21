@@ -4,7 +4,12 @@
     <meta charset="utf-8">
     <title>tRR</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="app.js" charset="utf-8"></script>
+    <script src="https://github.com/angular-slider/angularjs-slider" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.4/angular-material.min.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.4/angular-material.min.css" charset="utf-8"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js" charset="utf-8"></script>
     <script src="app.js" charset="utf-8"></script>
   </head>
   <body ng-controller='mainCTRL'>
@@ -39,11 +44,11 @@
           </td>
           <td class="td3">
 
-              Angular test area 3<br><br><br>
-
-              {{greeting}} <br>
-
-              5 + 6 = {{5+6}}
+            <rzslider class="custom-slider"
+                      rz-slider-model="slider.minValue"
+                      rz-slider-high="slider.maxValue"
+                      rz-slider-options="slider.options"></rzslider>
+            {{greeting[2]}}
 
           </td>
 

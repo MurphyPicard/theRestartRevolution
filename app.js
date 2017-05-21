@@ -5,6 +5,7 @@ angular
   .controller("mainCTRL", mainCTRL);
 
 function mainCTRL ($scope){
+
   $scope.greeting = ['hi', 'hello', 'how are u'];
 
   $scope.info = {
@@ -12,4 +13,16 @@ function mainCTRL ($scope){
     framework: ['AngularJS', 'React'],
     emotion: ['Love']
   };
-}
+
+  $scope.slider = {
+    minValue: 10,
+    maxValue: 90,
+    options: {
+      floor: 0,
+      ceil: 100,
+      step: 10,
+      showTicks: true
+    }
+  };
+
+}//mainCTRL
