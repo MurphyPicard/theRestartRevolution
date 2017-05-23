@@ -10,8 +10,9 @@ function mainCTRL ($scope){
 
   $scope.info = {
     names: ["Ara", 'Bob', 'Carl', 'Dexter'],
-    framework: ['AngularJS', 'React'],
-    emotion: ['Love'],
+    frameworks: ['AngularJS', 'React'],
+    languages: ['Solidity', 'JavaScript'],
+    emotions: ['Love'],
     coins: ['Bitcoin', 'Ethereum', 'Litecoin', 'Ripple'],
     metals: ['Gold', 'Silver']
   };
