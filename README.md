@@ -8,6 +8,11 @@ Purpose:
 3.Teach
 4.Buy/Sell Silver
 5.Mine for cryptocurrencies
+6.Mining vs Buying
+7.Diversification vs Consolidation
+8.Bankroll Management
+9.Other concerns
+
 
 User Stories
 
