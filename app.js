@@ -12,7 +12,8 @@ function mainCTRL ($scope){
     names: ["Ara", 'Bob', 'Carl', 'Dexter'],
     framework: ['AngularJS', 'React'],
     emotion: ['Love'],
-    coins: ['Bitcoin', 'Ethereum', 'Litecoin', 'Ripple']
+    coins: ['Bitcoin', 'Ethereum', 'Litecoin', 'Ripple'],
+    metals: ['Gold', 'Silver']
   };
 
   $scope.slider = {
